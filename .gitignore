@@ -1,12 +1,24 @@
-*.class
+*.swp
+*~
+#Ignore eclipse workspace files
+.project
+.metadata
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#Ignore project files
+*/.project
+*/.settings
+*/.classpath
 
-# Package Files #
-*.jar
-*.war
-*.ear
+#Ignore build folders
+*/build
+*/bin
+.gradle/
+ros_blockworld/description.jardesc
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#Ignore mas temp files
+mas/*/*.log
+2apl_fork/*
+apl_runner/APDescription.txt
+apl_runner/MTPs-Main-Container.txt
+*/doc/
+*/javadoc.xml
